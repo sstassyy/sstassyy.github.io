@@ -1,0 +1,128 @@
+.validation__content {
+  padding: 20px 30px 39px 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  /*font-family: "Roboto";*/
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 19px;
+}
+
+.contacts__form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.validation__input {
+  width: 380px;
+  height: 60px;
+  margin-bottom: 14px;
+  padding: 24px 20px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  outline: none;
+  background: #ffffff;
+}
+
+.input-mail {
+  margin-bottom: 31px;
+}
+
+.validation__input.is-invalid {
+  border: 1px solid #ff5c00;
+}
+
+.validation__btn {
+  padding: 17px 53px;
+  border-color: transparent;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #ffffff;
+  text-align: center;
+  outline: none;
+  background-color: #ff5c00;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+
+.validation__btn:focus {
+  background-color: rgba(255, 152, 94, 1);
+}
+
+.validation__label {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.is-label-invalid {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  font-size: 12px;
+  /*font-family: 'Roboto';*/
+  font-weight: 400;
+  line-height: 14px;
+  color: #ff5c00;
+}
+
+.input-name {
+  width: 620px;
+  margin-bottom: 27px;
+  /* 208.333% */
+  border-bottom: 1px solid #bcbcbc;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 50px;
+  color: #a0a0a0;
+}
+
+.contacts__form .validation__label:not(:last-child) {
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.valid__btn {
+  flex-shrink: 0;
+  margin-bottom: 92px;
+  padding: 40px;
+  border-radius: 8px;
+  font-family: Montserrat;
+  font-size: 39px;
+  font-style: normal;
+  line-height: 35px;
+  color: #ffffff;
+  background: var(--add-blue);
+}
+
+.valid__span {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 35px;
+  color: var(--black);
+  text-align: center;
+  /* 145.833% */
+}
+
+.valid__span span {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 35px;
+  color: #000000;
+  cursor: pointer;
+}

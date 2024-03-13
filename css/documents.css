@@ -1,0 +1,28 @@
+.documents__title {
+  margin-bottom: 150px;
+  font-family: Montserrat;
+  font-size: 98px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 50px;
+  color: var(--black);
+  /* 51.02% */
+}
+
+.documents__list {
+  margin-bottom: 200px;
+}
+
+.documents__item:not(:last-child) {
+  margin-bottom: 55px;
+}
+
+.documents__link {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 50px;
+  color: var(--black);
+  /* 125% */
+}

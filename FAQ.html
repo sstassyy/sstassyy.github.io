@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartStock</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/application.css">
+
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+
+      <div class="logo__wraper app-logo__wraper">
+        <a onclick="LinkPage('index.html')" class="logo">SmartStock</a>
+      </div>
+
+      <button class="header__burger hamburger hamburger--collapse btn-reset" type="button">
+        <span class="hamburger__box">
+          <span class="hamburger__inner">
+          </span>
+        </span>
+      </button>
+
+      <div class="right_side">
+        <nav class="header__nav nav">
+          <ul class="nav__list app-nav__list list-reset">
+            <li class="list__item">
+              <a onclick="LinkPage('index.html')" class="nav__link js-menu-link">Главная</a>
+            </li>
+            <li class="list__item">
+              <a onclick="LinkPage('index.html')" class="nav__link js-menu-link">Услуги</a>
+            </li>
+            <li class="list__item">
+              <a onclick="LinkPage('index.html')" class="nav__link js-menu-link">Этапы</a>
+            </li>
+            <li class="list__item">
+              <a onclick="LinkPage('index.html')" class="nav__link js-menu-link">Отзывы</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+
+  </header>
+  <section class="section application__section">
+    <div class="container">
+      <div class="application__top">
+        <h1 class="title application__title">Часто задаваемые вопросы</h1>
+        <p class="application__span">Не нашли своего вопроса ? С радостью ответим вам по почте SmartStock@gmail.com</p>
+      </div>
+      <ul class="application__list list-reset">
+        <li class="application__item">
+          <h2 class="title app-item__title">
+            1) Что такое SmartStock и как это работает?
+          </h2>
+          <p class="app-answer">
+            SmartStock — это облачное программное решение для автоматизации складского учета и управления процессами на
+            предприятии. Оно позволяет следить за запасами в реальном времени, автоматизировать документооборот,
+            оптимизировать складские операции и предоставлять подробные отчеты для анализа производительности.
+          </p>
+        </li>
+        <li class="application__item">
+          <h2 class="title app-item__title">
+            2) Насколько сложно интегрировать SmartStock с существующими системами на предприятии?
+          </h2>
+          <p class="app-answer">
+            SmartStock разработан таким образом, чтобы его интеграция была максимально простой и гибкой. Наша команда
+            технических специалистов поможет вам на каждом этапе интеграции, гарантируя совместимость с вашими текущими
+            ERP-системами.
+          </p>
+        </li>
+        <li class="application__item">
+          <h2 class="title app-item__title">
+            3) Могу ли я настроить SmartStock под уникальные нужды моего бизнеса?
+          </h2>
+          <p class="app-answer">
+            Да, SmartStock предлагает широкий спектр настроек, позволяя адаптировать функционал программы к вашим
+            индивидуальным требованиям и процессам.
+          </p>
+        </li>
+        <li class="application__item">
+          <h2 class="title app-item__title">
+            4) Обеспечивается ли обучение для пользователей SmartStock?
+          </h2>
+          <p class="app-answer">
+            Мы предлагаем комплексное обучение для всех пользователей SmartStock, включая онлайн-курсы, личные обучающие
+            сессии и поддержку пользователя, чтобы гарантировать легкое введение системы в штатную работу.
+          </p>
+        </li>
+        <li class="application__item">
+          <h2 class="title app-item__title">
+            5) Каковы требования к оборудованию для использования SmartStock?
+          </h2>
+          <p class="app-answer">
+            SmartStock — это облачное решение, которое не требует сложного оборудования. Вам лишь необходим
+            интернет-соединение и стандартное устройство с браузером, такое как компьютер, ноутбук, планшет или
+            смартфон.
+          </p>
+        </li>
+      </ul>
+  </section>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__content">
+        <div class="footer__up_block">
+          <div class="up_block__section_left">
+            <a href="#" class="footer__logo">SmartStock@gmail.com</a>
+          </div>
+          <div class="address-appliction-btn__block">
+            <p class="address">
+              Офис в Москве +7&nbsp;499 503-07-07
+              Берсеневский пер., д.&nbsp;5, cтр.&nbsp;4,
+              3-й эт., Москва, 119072
+            </p>
+            <p class="address">
+              Офис в Казани +7&nbsp;243 541-09-06
+              пл. Тукая, д.&nbsp;47, cтр.&nbsp;5,
+              6-й эт., Казань, 679048
+            </p>
+            <button onclick="LinkPage('application.html')" class="application__btn btn-reset">
+              Заполните заявку
+            </button>
+          </div>
+        </div>
+        <div class="footer__down_block">
+          <div class="down_block__section_left">
+            <span class="copy">©SmartStock 2023. Все права защищены</span>
+          </div>
+          <div class="down_block__section_right">
+            <a onclick="LinkPage('FAQ.html')" class="policy">FAQ</a>
+            <a onclick="LinkPage('documents.html')" class="policy">Документы</a>
+            <span class="made">Made by Rodygina</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
