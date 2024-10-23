@@ -1,0 +1,40 @@
+.new-task {
+    background-color: white;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 40px auto;
+}
+
+.new-task h2 {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.new-task input {
+    width: 70%;
+    padding: 10px;
+    font-weight: 300;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.new-task button {
+    background-color: #0d47a1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+}
+
+.new-task button:hover {
+    background-color: #083d77;
+}
