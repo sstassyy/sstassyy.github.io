@@ -1,0 +1,91 @@
+.tasks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    width: 23%;
+    box-sizing: border-box;
+}
+
+.column-header {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.backlog .column-header {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.processing .column-header {
+    background-color: #bbdefb;
+    color: #0d47a1;
+}
+
+.done .column-header {
+    background-color: #c8e6c9;
+    color: #2e7d32;
+}
+
+.basket .column-header {
+    background-color: #ffc1e3;
+    color: #ad1457;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.column ul li {
+    background-color: white;
+    padding: 17px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.column ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+
+.column.backlog ul li::before {
+    background-color: #f0f0f0; /* Бэклог */
+}
+
+.column.processing ul li::before { /* Изменил название на in-progress */
+    background-color: #bbdefb; /* В процессе */
+}
+
+.column.done ul li::before {
+    background-color: #c8e6c9; /* Готово */
+}
+
+.column.basket ul li::before { /* Изменил название на trash */
+    background-color: #ffc1e3; /* Корзина */
+}
+.empty-task {
+    border: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color: gray;
+    background-color: white;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
